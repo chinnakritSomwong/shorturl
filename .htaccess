@@ -1,0 +1,5 @@
+Options -Indexes
+
+# redirects
+RewriteEngine on
+RewriteRule ^([^/\.]+)/?$ /url.php?url=$1 [R=301,L]
